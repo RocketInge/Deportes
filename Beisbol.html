@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<div class="dropdown">
+    <button class="dropbtn">Menú</button>
+    <div class="dropdown-content">
+      <a href="./index.html">Voleibol</a>
+      <a href="./Basket.html">Basketball</a>
+      <a href="./Beisbol.html">Beisbol</a>
+    </div>
+</div>
+
+<div class="conta">
+    <!-- Registro -->
+    <div class="box">
+      <h2>Registrarse</h2>
+      <input type="text" id="regUser" placeholder="Usuario" required>
+      <input type="password" id="regPass" placeholder="Contraseña" required>
+      <button onclick="registrar()">Registrar</button>
+    </div>
+
+    <!-- Login -->
+    <div class="box">
+      <h2>Iniciar sesión</h2>
+      <input type="text" id="logUser" placeholder="Usuario" required>
+      <input type="password" id="logPass" placeholder="Contraseña" required>
+      <button onclick="iniciarSesion()">Entrar</button>
+    </div>
+  </div>
+ <!-- Contenido protegido -->
+<div id="contenido" class="contenido-blur">
+    <h1>Listo puedes ver la Informacion</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Voleibol - Historia y Reglas</title>
+    <link rel="stylesheet" href="./styles.css">
+     <style>
+        body {
+            background-image: url('beisbol.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Beisbol - Historia y Reglas
+    </header>
+    <div class="container">
+    <h2>Historia del Beisbol</h2>
+    <p>El béisbol es un deporte de equipo con profundas raíces históricas que se remontan al siglo XVIII. Aunque se desarrolló principalmente en Estados Unidos, 
+        tiene influencias de antiguos juegos europeos como el rounders y el cricket. Durante muchos años se 
+        creyó que el estadounidense Abner Doubleday lo había inventado en 1839, pero hoy se sabe que fue una evolución de varios juegos similares. 
+        El verdadero padre del béisbol moderno fue Alexander Cartwright, quien en 1845 estableció las primeras reglas formales del deporte. El primer partido oficial se jugó en 1846 en Nueva Jersey, 
+        y en 1869 se formó el primer equipo profesional: los Cincinnati Red Stockings. Desde entonces, el béisbol se ha 
+        expandido a nivel mundial, convirtiéndose en un deporte muy popular en países como Japón, Cuba, República Dominicana, 
+        México, Venezuela, y Puerto Rico, además de Estados Unidos, donde se juega la prestigiosa Major League Baseball (MLB).
+    </p>
+    <h2>Reglas del Beisbol</h2>
+    <p>
+        Las reglas del béisbol están diseñadas para que dos equipos compitan de forma organizada y justa, alternando entre ofensiva y defensa. Un partido oficial se juega entre dos equipos compuestos por nueve jugadores en el campo por equipo. El juego se divide en nueve entradas o innings, y en cada una de ellas, ambos equipos tienen la oportunidad de batear y defender. El objetivo principal es anotar c
+        arreras, lo cual se logra cuando un jugador ofensivo logra recorrer las cuatro bases (primera, segunda, tercera y home) sin ser eliminado, regresando al punto de partida tras golpear la pelota con el bate.
+        El equipo que defiende tiene un lanzador o pitcher, quien debe lanzar la pelota hacia el bateador desde un montículo ubicado en el centro del campo. El bateador, por su parte, debe intentar golpear la pelota y ponerla en juego. Si lo logra, corre hacia la primera base, y desde ahí puede avanzar por las demás bases 
+        dependiendo de cómo se desarrolle la jugada. Los jugadores pueden ser eliminados de diversas formas: si acumulan tres strikes, si un defensor atrapa la pelota en el aire antes de que toque el suelo, si un defensor toca al corredor con la pelota mientras no está en una base, o si el defensor pisa una base antes de que llegue el corredor.
+        El conteo entre pitcher y bateador se basa en bolas y strikes. Un strike se registra cuando el bateador falla un intento de golpear la pelota o cuando no intenta golpear una pelota lanzada dentro de la zona de strike. Si acumula tres strikes, queda eliminado. Una bola se cuenta cuando el pitcher lanza fuera de la zona de strike y el bateador no hace swing. Si se 
+        lanzan cuatro bolas, el bateador avanza automáticamente a la primera base. Cuando el equipo ofensivo acumula tres outs, termina su turno al bate y pasa a defender, mientras que el equipo contrario toma su turno para intentar anotar. 
+        En defensa, además del lanzador y el receptor (catcher), el equipo cuenta con jugadores en primera, segunda y tercera base, un campocorto o shortstop entre segunda y tercera, y tres jardineros que cubren el campo exterior. Todos trabajan en conjunto para atrapar la pelota y evitar que el equipo contrario anote carreras. El equipo que logra más 
+        carreras al final de las nueve entradas es el ganador. Si el marcador está empatado, se juegan entradas adicionales hasta que uno de los equipos tome la ventaja al final de una entrada completa. El béisbol, además de tener estas reglas básicas, también contempla otras situaciones como robos de base, toques de bola, doble jugada, y reglas específicas para lanzadores y corredores, lo que lo convierte en un deporte muy estratégico y emocionante.
+
+    </p>
+    <h2>Como se juega</h2>
+    <p>
+        Un partido de béisbol se juega entre dos equipos de nueve jugadores cada uno. El objetivo del juego es anotar más carreras que el equipo contrario, lo cual se logra golpeando una pelota con un bate y corriendo 
+        por cuatro bases dispuestas en forma de diamante. El encuentro se divide en nueve entradas o innings. En cada entrada, ambos equipos tienen un turno para batear y otro para defender. Mientras un equipo batea y trata de avanzar por las bases, el otro defiende y busca eliminar 
+        a los jugadores del equipo rival. Una entrada termina cuando se logran tres outs o eliminaciones del equipo que está bateando, momento en el cual se cambian los roles.
+        El equipo defensivo cuenta con un lanzador o pitcher, que lanza la pelota hacia el bateador, y un receptor o catcher, que la atrapa si no es golpeada. Si el bateador logra golpear la pelota y ponerla en juego, corre hacia la primera base e intenta avanzar hasta 
+        completar un recorrido por las cuatro bases para anotar una carrera. Los outs pueden producirse de varias formas: si el bateador falla tres veces en golpear la pelota (lo que se llama strikeout), si un defensor atrapa la pelota en el aire antes de que toque el suelo, o si el jugador es tocado con la pelota antes de llegar a una base. 
+        El conteo entre el lanzador y el bateador se compone de strikes y bolas. Tres strikes significan out, mientras que cuatro bolas (lanzamientos fuera de la zona válida que el bateador no intenta golpear) permiten al bateador avanzar automáticamente a la primera base.
+        El juego continúa alternando entradas hasta completar las nueve. Si al final hay empate, se juegan entradas extra hasta que uno de los equipos se imponga. Las posiciones en el campo incluyen al pitcher, el catcher, jugadores en primera, segunda y tercera base, un campocorto o shortstop, y tres jardineros (izquierdo, central y derecho) 
+        que cubren el campo exterior. El béisbol combina estrategia, habilidad, precisión y trabajo en equipo. Además, es un deporte con gran tradición, historia y pasión, especialmente en América y Asia, con torneos destacados como la Serie Mundial, el Clásico Mundial de Béisbol y la Serie del Caribe.
+
+
+    </p>
+    <div class="comentario-container">
+            <h2>Deja tu comentario</h2>
+            <textarea id="comentario" placeholder="Escribe algo..."></textarea>
+            <button onclick="publicarComentario()">Publicar</button>
+        
+            <div class="comentarios" id="comentarios"></div>
+          </div>
+    </div>
+    <script>
+        function publicarComentario() {
+        const texto = document.getElementById('comentario').value.trim();
+        if (texto !== "") {
+            const contenedor = document.getElementById('comentarios');
+            const nuevoComentario = document.createElement('div');
+            nuevoComentario.className = 'comentario';
+            nuevoComentario.textContent = texto;
+            contenedor.appendChild(nuevoComentario);
+            document.getElementById('comentario').value = "";
+        } else {
+            alert("Escribe algo antes de publicar.");
+        }
+    }
+    </script>
+</div>
+<script src="script.js"></script>
+
+</body>

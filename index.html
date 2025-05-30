@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<div class="dropdown">
+    <button class="dropbtn">Menú</button>
+    <div class="dropdown-content">
+      <a href="./index.html">Voleibol</a>
+      <a href="./Basket.html">Basketball</a>
+      <a href="./Beisbol.html">Beisbol</a>
+    </div>
+  </div>
+
+  <div class="conta">
+    <!-- Registro -->
+    <div class="box">
+      <h2>Registrarse</h2>
+      <input type="text" id="regUser" placeholder="Usuario" required>
+      <input type="password" id="regPass" placeholder="Contraseña" required>
+      <button onclick="registrar()">Registrar</button>
+    </div>
+
+    <!-- Login -->
+    <div class="box">
+      <h2>Iniciar sesión</h2>
+      <input type="text" id="logUser" placeholder="Usuario" required>
+      <input type="password" id="logPass" placeholder="Contraseña" required>
+      <button onclick="iniciarSesion()">Entrar</button>
+    </div>
+  </div>
+ <!-- Contenido protegido -->
+<div id="contenido" class="contenido-blur">
+    <h1>Listo puedes ver la Informacion</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Voleibol - Historia y Reglas</title>
+    <link rel="stylesheet" href="./styles.css">
+     <style>
+        body {
+            background-image: url('voleibol.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Voleibol - Historia y Reglas
+    </header>
+    <div class="container">
+        <h2>Historia del Voleibol</h2>
+        <p>El voleibol fue creado en 1895 por William G. Morgan, un instructor de educación física en la YMCA de Holyoke, Massachusetts, EE.UU. Morgan ideó el juego como una alternativa menos agresiva al baloncesto, permitiendo un deporte en el que el contacto físico fuera mínimo. Inicialmente, lo llamó "Mintonette", pero más tarde el nombre cambió a voleibol debido a la naturaleza del juego.</p>
+        <p>El voleibol creció en popularidad y en 1947 se fundó la Federación Internacional de Voleibol (FIVB). En 1964, el voleibol fue incluido por primera vez en los Juegos Olímpicos de Tokio.</p>
+        <hr>
+        <h2>Reglas Básicas</h2>
+        <p>El voleibol es un deporte de equipo en el que dos equipos de seis jugadores cada uno compiten en una cancha dividida por una red. El objetivo es enviar el balón por encima de la red para que toque el suelo en el campo contrario, evitando que el equipo contrario haga lo mismo.</p>
+        <ul>
+            <li>El juego se juega en sets, generalmente al mejor de cinco.</li>
+            <li>Cada equipo tiene un máximo de tres toques antes de enviar el balón al otro lado.</li>
+            <li>No se permite tocar el balón dos veces seguidas, salvo en el caso de un bloqueo.</li>
+            <li>El saque se realiza desde la línea de fondo y debe pasar por encima de la red sin tocarla.</li>
+            <li>Un equipo gana un set al alcanzar los 25 puntos con al menos dos puntos de diferencia.</li>
+        </ul>
+        <hr>
+        <h2>Posiciones en el Voleibol</h2>
+        <p>Existen seis posiciones en la cancha:</p>
+        <ul>
+            <li><strong>Armador:</strong> Organiza el juego y realiza pases a los atacantes.</li>
+            <li><strong>Opuesto:</strong> Jugador clave en la ofensiva, ubicado en la parte derecha de la cancha.</li>
+            <li><strong>Punta o atacante:</strong> Encargado de rematar el balón desde la banda izquierda.</li>
+            <li><strong>Central:</strong> Se encarga del bloqueo y ataques rápidos en el centro de la red.</li>
+            <li><strong>Líbero:</strong> Especialista en defensa, no puede atacar ni sacar.</li>
+            <li><strong>Receptor:</strong> Ayuda en la recepción y preparación de los ataques.</li>
+        </ul>
+        <hr><xsca
+        <h2>Puntuacion</h2>
+            <p>Los partidos de voleibol se disputan al mejor de cinco tandas o bloques de puntos que reciben, igual que en tenis, la denominación anglosajona de set. En el momento en que uno de los dos equipos acumula tres sets ganados, gana el partido y se da por concluido el enfrentamiento. Un equipo gana un set cuando alcanza o supera los 25 puntos con una ventaja de dos (es decir, con 25-23 se gana, pero con 25-24 habría que esperar al 26-24 y así sucesivamente mientras ninguno de los dos equipos no consiga los dos puntos de ventaja).
+                De ser necesario el quinto set, el de desempate, el objetivo es conseguir 15 puntos y se mantienen los dos de ventaja. Este set tiene así una duración más reducida. La duración de los encuentros de voleibol es muy variable, pudiendo necesitar jugarse de 3 a 5 sets (bien un resultado de 3-0, 3-1 o 3-2), y tener una duración variable desde alrededor de una hora hasta incluso más de dos horas y media.
+                Los campos se sortean antes del partido, así como el saque inicial. En cada set se produce un cambio de campo y se va alternando el primer saque. En caso de ser necesario el quinto set, set decisivo, se procede a un nuevo sorteo y además se realiza un cambio de campo al alcanzarse el punto 8 por el primero de los equipos.
+                Se consigue punto cuando el equipo contrario comete alguna de las siguientes faltas o infracciones:
+                
+                <p>Si el balón toca el suelo dentro del propio campo, tanto si el último toque corresponde a un jugador propio como a uno del equipo contrario.</p>
+                <p>Si el balón acaba fuera de la pista de juego, sea por un ataque desacertado sobre el campo contrario o por un error al tratar de defender. La falta corresponde al jugador y al equipo que tocó el balón por última vez, y se anota punto el contrario. Se considera fuera el contacto con el techo, público o cualquier elemento del pabellón, o los mismos colegiados. El contacto con la red, postes o varillas por la parte exterior a las bandas laterales es también fuera.</p>
+                <p>Si se supera el número de tres toques permitidos sin haber pasado el balón al campo contrario, o si un mismo jugador toca dos veces seguidas el balón. Como excepción, en caso de toque del bloqueo, ese primer toque no se contabiliza para la falta de los cuatro toques de equipo ni para el doble individual.</p>
+                <p>Si en el momento del saque los jugadores están situados de forma incorrecta, o sea, que no está ajustada a la rotación correspondiente.</p>
+                <p> el toque del balón es incorrecto y hay retención o acompañamiento (dobles en este caso).</p>
+                <p>Si un jugador zaguero ataca más allá de la línea de ataque. El líbero no puede participar de ningún modo en el bloqueo y tiene restringido el ataque, como ya se ha visto.</p>
+                <p>Si un jugador penetra el campo contrario por debajo de la red interfiriendo con el juego del contrario, o si un pie traspasa completamente la línea central.</p>
+                <p>Si se produce contacto con la red (entre las varillas) al jugar el balón, independientemente de que esto interfiera con el juego. Es también falta el contacto con la parte de red exterior a las varillas o cualquiera de los postes o elementos accesorios si esto interfiere el juego.</p>
+                <p>Si se realiza una recepción con los dedos en falta (dobles en el contacto).</p>
+                <p>Si al momento del servicio, el jugador pisa o traspasa la línea de la cancha.</p>
+        <hr>
+        <div class="comentario-container">
+            <h2>Deja tu comentario</h2>
+            <textarea id="comentario" placeholder="Escribe algo..."></textarea>
+            <button onclick="publicarComentario()">Publicar</button>
+        
+            <div class="comentarios" id="comentarios"></div>
+          </div>
+    </div>
+
+    <button class="btn" onclick="mostrarMensaje()">Presiona aquí</button>
+    <footer>
+        El campo donde se disputa el juego es un rectángulo de 18 m de largo por 9 m de ancho, dividido en su línea central por una red que separa a los dos equipos.
+        En realidad el juego se desarrolla también en el exterior, en la zona libre, a condición de que el balón no toque el suelo ni ningún otro elemento.
+        La zona libre debe tener a lo menos 3 metros, medidas que para las Competencias Mundiales y oficiales de la FIVB aumenta a 5 m sobre las líneas laterales y a 6,5 m para
+        las líneas de fondo. El espacio libre sobre la pista debe tener una altura mínima de 7 m que en competiciones internacionales sube a 12,5 m.
+        El contacto de los jugadores con el suelo es continuo, utilizando habitualmente protecciones en las articulaciones. La superficie no puede ser rugosa ni deslizante.
+    </footer>
+    <script>
+        function mostrarMensaje() {
+            alert("¡Gracias por visitar nuestra página de Deportes!");
+        }
+    </script>
+
+    <script>
+        function publicarComentario() {
+        const texto = document.getElementById('comentario').value.trim();
+        if (texto !== "") {
+            const contenedor = document.getElementById('comentarios');
+            const nuevoComentario = document.createElement('div');
+            nuevoComentario.className = 'comentario';
+            nuevoComentario.textContent = texto;
+            contenedor.appendChild(nuevoComentario);
+            document.getElementById('comentario').value = "";
+        } else {
+            alert("Escribe algo antes de publicar.");
+        }
+    }
+    </script>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
