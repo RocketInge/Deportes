@@ -1,0 +1,25 @@
+{
+  "name": "deportes",
+  "version": "1.0.0",
+  "description": "Pagina web de deportes",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocketInge/Deportes.git"
+  },
+  "keywords": [
+    "web",
+    "api",
+    "deportes"
+  ],
+  "author": "Jonathan Jarett Rodriguez Moreno <rocket276pro@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RocketInge/Deportes/issues"
+  },
+  "homepage": "https://github.com/RocketInge/Deportes#readme"
+}
