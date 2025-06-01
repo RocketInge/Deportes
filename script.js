@@ -36,11 +36,6 @@ function iniciarSesion() {
       if (!res.ok) throw new Error("Credenciales incorrectas");
       return res.json();
     })
-    .then(data => {
-      alert(data.mensaje);
-      document.getElementById('contenido').classList.remove('contenido-blur');
-      document.getElementById('contenido').classList.add('contenido-visible');
-    })
     .catch(err => {
       alert('Error: ' + err.message);
     });
